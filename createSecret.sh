@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Definindo o perfil da conta AWS
-aws_profile="julio_dev"
+aws_profile="default"
 
 # Solicitando o nome do Secret
 echo "Digite o nome do Secret: "
