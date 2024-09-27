@@ -40,7 +40,7 @@ if [ -n "$existing_secret_arn" ]; then
     echo "Secret '$secret_name' já existe. ARN: $existing_secret_arn"
 else
     # Definindo as tags
-    tags="Key=product,Value=space"
+    tags="Key=product,Value=exemple"
 
     # Criando o Secret Manager
     aws secretsmanager create-secret \
